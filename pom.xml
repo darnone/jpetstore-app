@@ -6,7 +6,7 @@
 	<groupId>org.jpetstore</groupId>
 	<artifactId>jpetstore-app</artifactId>
 	<packaging>war</packaging>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0</version>
 
 	<name>JPetStore Demo 6</name>
 	<url>http://www.mybatis.org</url>
@@ -104,13 +104,4 @@
 			</plugin>
 		</plugins>
 	</build>
-	
-	<distributionManagement>
-    	<snapshotRepository>
-        	<id>snapshots</id>
-        	<name>libs-snapshot-local</name>
-        	<url>http://glamdring.local:8081/artifactory/libs-snapshot-local</url>
-    	</snapshotRepository>
-	</distributionManagement>
-	
 </project>
